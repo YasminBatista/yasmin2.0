@@ -41,7 +41,8 @@ header ul li a{
     color: var(--secondary)
 }
 main{
-    min-height: 80vh;
+    min-height: 82vh;
+
 }
     footer{
         background-color: var(--secondary);
@@ -51,10 +52,13 @@ main{
 footer div{
     height: 4rem;
     display: flex;
-    align-items: center;
+    align-items:center;
 }
 .content {
     width: 100%;
     max-width: 1372px;
     margin: 0 auto;
+}
+footer div a{
+    margin: 0 0.3rem;
 }
